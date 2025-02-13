@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <u><h1>Hausaufgaben 10.02.2025</h1></u>
+    <h2>Aufgabe 1:</h2>
+    <h3>Was sind <b>Backups</b> ? </h3>
+    <b>Backups</b> sind Sicherrungskopien von Daten, um Datenverlust zu vermeiden.
+    <h2>Aufgabe 2:</h2>
+    <h3><i>Warum</i> sollte man <b>Backups</b> machen?</h3>
+    <ul>
+        <li><b>Datenverlust verhindern:</b> Bei Systemausfällen können Daten schnell wiederhergestellt werden</li>
+        <li><b>Betrieb sicherstellen:</b> Unternehmen können bei Datenverlust schnell wieder arbeiten.</li>
+        <li><b>Hardwarefehlern vorbeugen:</b> Datenträger, Festplatten und andere Hardware können nach Defekten ausfallen. </li>
+        <li><b>Löschungen rückgängig machen:</b> Gelöschte oder beschädigte Dateien lassen sich mit einem Backup wiederherstellen.</li>
+        <li><b>Updates rückgängig machen:</b> Sollte nach einem Update das System nicht mehr funktionieren, dann kann man mithilfe eines Backups schnell zum vorherigen Zustand zurückkehren.</li>
+    </ul>
+    <h2>Aufgabe 3:</h2>
+    <h3>Was macht der gegebene <strong>Python-Code</strong> <u>backup.py</u>?</h3>
+    <img src="image.png">
+    <pre>
+        import shutil
+        import datetime
+
+        backup_source = "C:/Users/Benutzer/Dokumente"
+        backup_target = "D:/Backup_" + datetime.datetime.now().strftime("%Y%m%d%H%M")
+
+        shutil.copytree(backup_source, backup_target)
+        print(f"Backup erfolgreich: {backup_target}")
+    </pre>
+    <ol>
+        <li>Die Datenpakete "shutil" und "datetime" werden importiert.</li>
+        <li>"backup_source" bezeichnet den Pfad des Quellverzeichnisses, das gesichert werden soll.</li>
+        <li>"backup_target" bezeichnet den Zielpfad für das Backup. Dabei werden Datum und die aktuelle Uhrzeit an die Datei angehängt.</li>
+        <li>"shutil.copytree" kopiert "backup_source" in das "backup_target", also das Quellverzeichis wird in das Zielverzeichnis kopiert.</li>
+        <li>Gibt eine Erfolgsmeldun aus und gibt den Pfad des Zielpfads an.</li>
+    </ol>
+    <h2>Aufgabe 4:</h2>
+    <h3>Gibt es einen Weg, um ein Script automatisch ausführen zu lassen und dies direkt für ein Backup zu nutzen?</h3>
+    <b>Ja</b>, denn es gibt die Möglichkeit, in der Aufgabenplanung, dem <b>Task Schedule</b>, auf ein Script als Handlung zu verweisen.<br> 
+    So lässt sich zu einer bestimmten Zeit ein automatisches Backup machen.<br>
+    Dadurch wird ein Backup ausgeführt, ohne dass der Nutzer eingreifen muss.
+</body>
+</html>

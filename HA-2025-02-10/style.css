@@ -1,0 +1,33 @@
+body {
+    background-color: lightgray;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color:brown;
+}
+
+
+a, strong {
+    color: #cb2fc1;
+}
+
+h1, h2, h3 {
+    text-align: center;
+}
+
+.aufgabe {
+    background-color:rgb(116, 142, 116);
+    border: rgb(84, 112, 84);
+    border-style: dotted;
+    border-radius: 5px;
+    margin: 5%;
+    padding: 0px 20px 0px 50px;
+}
+
+nav {
+    border: black, solid, 2px;
+    padding: 20px;
+}
+
+nav a {
+    border: black, solid, 2px;
+    margin: 20px;
+}

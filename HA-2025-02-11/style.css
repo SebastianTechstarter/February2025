@@ -1,0 +1,60 @@
+h1 {
+    color: blue;
+}
+
+.intro {
+    font-size: 20px;
+}
+
+body {
+    background-color: bisque;
+    background: linear-gradient(bisque, red);
+    background-repeat: none;
+    background-attachment: fixed;
+    height: 100%;
+}
+
+.btn {
+    background-color: green;
+    color: white;
+    border-radius: 10px
+}
+
+.btn:hover {
+    background-color: darkgreen;
+    box-shadow: 10px 20px 15px grey;
+}
+
+.box {
+    width: 200px;
+    height: 100px;
+    background-color: antiquewhite;
+    border-radius: 15px;
+    text-align: center;
+    align-content: center;
+}
+
+.liste li {
+    margin-bottom: 10px;
+    list-style-type:none;
+    padding-left: -10px;
+}
+
+.bild {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+    animation: fadeInOut 4s infinite;
+    transition: transform .2s;
+}
+
+.bild:hover {
+    transform: scale(1.1)
+}
+
+@keyframes fadeInOut {
+    0% {opacity: 0;}
+    50% {opacity: 1;}
+    100% {opacity: 0;}
+}

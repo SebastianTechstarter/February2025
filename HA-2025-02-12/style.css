@@ -1,0 +1,91 @@
+* {
+    background-color: blue;
+}
+.header {
+    display:flex;
+    justify-content: space-between;
+    background-color: green;
+    padding: 10px;
+}
+
+.header div {
+    text-align: center;
+    padding: 10px
+}
+
+.header .titel {
+    background-color: lightblue;
+    margin-top: -10px;
+    width: 550px;
+    margin-bottom: -10px;
+    text-align: center;
+    align-content: center;
+    font-size: xx-large;
+}
+
+.header .logo {
+    background: black;
+    color: white;
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+ .header .rechts {
+    background-color: pink;
+    margin-top: -10px;
+    margin-left: -400px;
+    margin-right: -10px;
+    width: 500px;
+    margin-bottom: -10px;
+ }
+
+.inhalt {
+    background-color: blue;
+    padding: 20px;
+    text-align: center;
+}
+
+.items {
+    display: flex;
+    justify-content: left;
+    gap: 10px;
+    margin-bottom: 150px;
+    margin-left: -20px;
+    margin-top: 30px;
+}
+
+.item {
+    background-color: black;
+    color: white;
+    padding: 100px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.kiste {
+    background-color: black;
+    height: 100px;
+    width: 100%;
+    margin: 0 auto;
+    margin-left: 0px;
+    margin-bottom: 100px;
+}
+
+.footer {
+    display: flex;
+    background-color: darkred;
+    height: 50px;
+}
+
+.footer .left {
+    flex: 1;
+    background-color: darkred;
+}
+
+.footer .right {
+    flex: 1;
+    background-color: black;
+}
