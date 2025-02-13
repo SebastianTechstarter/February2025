@@ -1,0 +1,86 @@
+body {
+    background-color: blueviolet;
+}
+
+
+
+
+
+.header {
+    flex: 1;
+    width: 100vw;
+}
+
+.headLeft {
+    background-color: blue;
+    width: auto;
+}
+
+.items {
+    display: inline;
+}
+
+.itemOne {
+    height: 200px;
+    width: 200px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.itemTwo {
+    height: 200px;
+    width: 200px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.itemThree {
+    height: 200px;
+    width: 200px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.banner {
+    width: 90vw;
+    height: 100px;
+}
+
+
+
+
+
+.logo {
+    background-color: black;
+    color: white;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    text-align: center;
+    align-content: center;
+}
+
+.footer {
+    margin-bottom: auto;
+    margin-left: -20px;
+    display: flex;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100vw;
+    height: 50px;
+
+}
+
+.footerLeft {
+    background-color: greenyellow;
+    color: greenyellow;
+    flex: 1;
+}
+
+.footerRight {
+    background-color: antiquewhite;
+    color: antiquewhite;
+    flex: 1;
+}
