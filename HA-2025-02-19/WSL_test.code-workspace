@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": "../../../../WSL_test"
+		},
+		{
+			"path": ".."
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "WSL_test"
+	}
+}
